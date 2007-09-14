@@ -3,12 +3,14 @@
 
 Name:		gnu.getopt
 Version:	1.0.13
-Release:	%mkrel 1.3
+Release:	%mkrel 1.3.0
 Epoch:		0
 Summary:        Java getopt implementation
 License:        LGPL
 Url:            http://www.urbanophile.com/arenn/hacking/download.html
 Source0:        ftp://ftp.urbanophile.com/pub/arenn/software/sources/java-getopt-%{version}.tar.bz2
+Obsoletes:      gnu-getopt < %{epoch}:%{version}-%{release}
+Provides:       gnu-getopt = %{epoch}:%{version}-%{release}
 BuildRequires:  ant
 Group:          Development/Java
 %if %{gcj_support}
@@ -20,9 +22,7 @@ Buildarch:      noarch
 BuildRequires:  java-devel >= 0:1.4.2
 %endif
 BuildRequires:	jpackage-utils >= 0:1.5
-Buildroot:      %{_tmppath}/%{name}-%{version}-buildroot
-#Distribution:	JPackage
-#Vendor:         JPackage Project
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 The GNU Java getopt classes support short and long argument parsing in
