@@ -3,7 +3,7 @@
 
 Name:		gnu.getopt
 Version:	1.0.13
-Release:	%mkrel 1.3.0
+Release:	%mkrel 1.3.1
 Epoch:		0
 Summary:        Java getopt implementation
 License:        LGPL
@@ -14,8 +14,6 @@ Provides:       gnu-getopt = %{epoch}:%{version}-%{release}
 BuildRequires:  ant
 Group:          Development/Java
 %if %{gcj_support}
-Requires(post): java-gcj-compat
-Requires(postun): java-gcj-compat
 BuildRequires:  java-gcj-compat-devel
 %else
 Buildarch:      noarch
