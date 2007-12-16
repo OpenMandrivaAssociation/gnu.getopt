@@ -3,7 +3,7 @@
 
 Name:		gnu.getopt
 Version:	1.0.13
-Release:	%mkrel 1.3.1
+Release:	%mkrel 1.3.2
 Epoch:		0
 Summary:        Java getopt implementation
 License:        LGPL
@@ -19,7 +19,7 @@ BuildRequires:  java-gcj-compat-devel
 Buildarch:      noarch
 BuildRequires:  java-devel >= 0:1.4.2
 %endif
-BuildRequires:	jpackage-utils >= 0:1.5
+BuildRequires:	java-rpmbuild >= 0:1.5
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
