@@ -20,7 +20,6 @@ Buildarch:      noarch
 BuildRequires:  java-devel >= 0:1.4.2
 %endif
 BuildRequires:	java-rpmbuild >= 0:1.5
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 The GNU Java getopt classes support short and long argument parsing in
