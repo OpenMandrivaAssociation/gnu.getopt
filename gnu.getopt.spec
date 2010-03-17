@@ -3,7 +3,7 @@
 
 Name:		gnu.getopt
 Version:	1.0.13
-Release:	%mkrel 1.3.3
+Release:	%mkrel 1.3.4
 Epoch:		0
 Summary:        Java getopt implementation
 License:        LGPL
