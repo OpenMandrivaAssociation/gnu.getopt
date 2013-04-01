@@ -1,9 +1,9 @@
 %define	section		free
-%define gcj_support     1
+%define gcj_support     0
 
 Name:		gnu.getopt
 Version:	1.0.13
-Release:	%mkrel 1.3.8
+Release:	1.3.8
 Epoch:		0
 Summary:        Java getopt implementation
 License:        LGPL
