@@ -17,7 +17,7 @@ Buildarch:      noarch
 BuildRequires:  java-devel >= 0:1.4.2
 %endif
 BuildRequires:	java-rpmbuild >= 0:1.5
-Provides:       gnu-getopt = %{epoch}:%{version}-%{release}
+Provides:       gnu-getopt = %{EVRD}
 
 %description
 The GNU Java getopt classes support short and long argument parsing in
