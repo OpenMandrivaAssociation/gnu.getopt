@@ -3,8 +3,8 @@
 
 Summary:        Java getopt implementation
 Name:		gnu.getopt
-Version:	1.0.13
-Release:	1.3.8
+Version:	1.0.14
+Release:	1
 License:        LGPLv2
 Group:          Development/Java
 Url:            http://www.urbanophile.com/arenn/hacking/download.html

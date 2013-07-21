@@ -1,2 +1,4 @@
+removed_sources:
+  java-getopt-1.0.13.tar.bz2: 3e8b43a7fdc2fdcabcbd804b800ad9b10e9f3b08
 sources:
-  "java-getopt-1.0.13.tar.bz2": 3e8b43a7fdc2fdcabcbd804b800ad9b10e9f3b08
+  java-getopt-1.0.14.tar.gz: 6f7736e2bd254a68d0f3deb49a535b45b7e8b436
