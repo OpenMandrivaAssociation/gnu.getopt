@@ -4,7 +4,7 @@
 Summary:        Java getopt implementation
 Name:		gnu.getopt
 Version:	1.0.14
-Release:	7
+Release:	8
 License:        LGPLv2
 Group:          Development/Java
 Url:            http://www.urbanophile.com/arenn/hacking/download.html
