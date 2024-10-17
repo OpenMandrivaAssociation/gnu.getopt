@@ -7,7 +7,7 @@ Version:	1.0.14
 Release:	8
 License:        LGPLv2
 Group:          Development/Java
-Url:            http://www.urbanophile.com/arenn/hacking/download.html
+Url:            https://www.urbanophile.com/arenn/hacking/download.html
 Source0:        ftp://ftp.urbanophile.com/pub/arenn/software/sources/java-getopt-%{version}.tar.bz2
 BuildRequires:  ant
 %if %{gcj_support}
